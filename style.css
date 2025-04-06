@@ -27,7 +27,7 @@ body{
 }
 
 .nav-container{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -136,6 +136,7 @@ body{
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     padding-bottom: 10px;
+    width: 100%;
 }
 
 /*Ocultar la barra de de scroll*/
@@ -153,7 +154,8 @@ body{
 }
 
 .slider-item{
-    flex: auto;
+    position: relative;
+    flex: 0 0 calc(25% - 15px); 
     scroll-snap-align: start;
     border-radius: 15px;
     overflow: hidden;
@@ -171,6 +173,16 @@ body{
     object-fit: cover;
     display: block;
 }
+
+.icono-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
 
 /*Nuevos*/
 .nuevos-container{
