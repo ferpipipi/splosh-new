@@ -165,6 +165,7 @@ body{
 
 .slider-item:hover{
     transform: scale(1.05);
+    filter: brightness(50%);
 }
 
 .slider-img{
@@ -181,8 +182,6 @@ body{
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-
-
 
 /*Nuevos*/
 .nuevos-container{
