@@ -125,6 +125,13 @@ body{
     gap: 20px;
 }
 
+.titulo{
+    color: #fff;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
 .texto-info{
     flex: 1;
 }
@@ -201,4 +208,12 @@ body{
 .btn-capitulo:hover{
     background-color: #2c941c;
     color: #fff;
+}
+
+.footer-container{
+    border-top: 2px solid #fff;
+    background-color: #2f2f2e;
+    padding: 20px 30px;
+    color: #fff;
+    text-align: center;
 }

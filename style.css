@@ -215,3 +215,11 @@ body{
     font-size: 30px;
     margin-bottom: 20px;
 }
+
+.footer-container{
+    border-top: 2px solid #fff;
+    background-color: #2f2f2e;
+    padding: 20px 30px;
+    color: #fff;
+    text-align: center;
+}
