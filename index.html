@@ -17,7 +17,6 @@
             <input type="text" placeholder="Buscar" class="search-box">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#">Pelicula</a></li>
                     <li class="nav-item"><a href="#">Series</a></li>
                     <li class="nav-item"><a href="#">Favoritos</a></li>
                     <li class="nav-item dropdown">
@@ -43,7 +42,7 @@
             <h2 class="title-recomendados">Recomendados para ti</h2>
             <div class="slider">
                 <div class="slider-item">
-                    <a href="seccion.html"><img src="img/recomendado.jpg" alt="Slider 1" class="slider-img"></a>
+                    <img src="img/recomendado.jpg" alt="Slider 1" class="slider-img">
                     <div class="icono-play">
                         <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" color="white" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
@@ -51,12 +50,13 @@
                         </svg>
                     </div>
                     <div class="info-hover">
-                        <h4>Titulo de la Pelicula</h4>
-                        <p>Descripcion de la pelicula</p>
+                        <h4>La chicas Super poderosas </h4>
+                        <p>Serie de acción, buena para pasar el rato.</p>
                         <div class="botones">
-                            <button class="ver-btn">Ver</button>
+                            <a href="seccion.html"><button class="ver-btn">Ver</button></a>
                             <button class="anadir-btn">Agregar a Favoritos</button>
                         </div>
+                        <div class="estrellas" data-rating="3"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -67,6 +67,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>El laboratorio de Dexter's</h4>
+                        <p>Una serie divertida, animacion y aventura.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/recomendado3.jpg" alt="Slider 1" class="slider-img">
@@ -75,6 +84,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Los Rugrats</h4>
+                        <p>Serie con más de 9 temporadas, familiar y divertida.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -85,6 +103,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>CATDOG</h4>
+                        <p>Serie lazada en 1998. Cuenta con 3 temporadas.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="3"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/recomendado5.jpg" alt="Slider 1" class="slider-img">
@@ -93,6 +120,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Coraje el perro cobarde</h4>
+                        <p>Una serie animada de horror y comedia.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="5"></div>
                     </div>
                 </div>
             </div>
@@ -112,6 +148,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Kick Buttowski</h4>
+                        <p>Serie de aventuras y comedia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/nuevo2.jpg" alt="Slider 1" class="slider-img">
@@ -120,6 +165,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Pucca</h4>
+                        <p>Una serie anmada de comedia y romance</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -130,6 +184,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Mucha lucha</h4>
+                        <p>Serie para cualquier publico, llena de diversion y accion</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/nuevo4_1.jpg" alt="Slider 1" class="slider-img">
@@ -139,6 +202,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Ben 10</h4>
+                        <p>Serie con 4 temporadas. Esta llena de accion.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/nuevo5_1.jpg" alt="Slider 1" class="slider-img">
@@ -147,6 +219,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Billy y Mandy</h4>
+                        <p>Serie animada de horror y fantasia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="3.5"></div>
                     </div>
                 </div>
             </div>
@@ -166,6 +247,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Los padrinos magicos</h4>
+                        <p>Serie animada de fantasia y comedia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/favorito2.jpg" alt="Slider 1" class="slider-img">
@@ -174,6 +264,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Phineas y Ferb</h4>
+                        <p>Serie de 4 temporadas. Diversion, creativida y aventura es lo que contiene esta serie.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -184,6 +283,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Zoey 101</h4>
+                        <p>Seie que incluye drama, comedia y romance, cuenta con 4 temporadas</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/favorito4.jpg" alt="Slider 1" class="slider-img">
@@ -192,6 +300,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Hora de Aventura</h4>
+                        <p>Avnetura, fantasia y comedia es lo que contiene esta serie.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="5"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -202,6 +319,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Los chicos del barrio</h4>
+                        <p>Serie llena de aventuras y diversion</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="3"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/favorito6.jpg" alt="Slider 1" class="slider-img">
@@ -210,6 +336,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Bob Esponja</h4>
+                        <p>Serie animada llena de diversion y aventura, ideal para verla en familia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4"></div>
                     </div>
                 </div>
             </div>
@@ -229,6 +364,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Buena suerte charlie</h4>
+                        <p>Una serie que cuenta con 4 temporadas llenas de comedia y drama</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="3.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/serie2.jpg" alt="Slider 1" class="slider-img">
@@ -237,6 +381,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Kid vs Kat</h4>
+                        <p>Serie animada de aventura que cuenta con 2 temporadas.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="3"></div>
                     </div>
                 </div>
                 <div class="slider-item">
@@ -247,6 +400,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Un show mas</h4>
+                        <p>Serie de drama, aventura, comedia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/serie4.jpg" alt="Slider 1" class="slider-img">
@@ -256,6 +418,15 @@
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
                     </div>
+                    <div class="info-hover">
+                        <h4>Isla de drama</h4>
+                        <p>Serie divertida, con dama y aventura que cuenta con 26 capitulos.</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
+                    </div>
                 </div>
                 <div class="slider-item">
                     <img src="img/serie5.jpg" alt="Slider 1" class="slider-img">
@@ -264,6 +435,15 @@
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                             <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
                         </svg>
+                    </div>
+                    <div class="info-hover">
+                        <h4>Pecezuelos</h4>
+                        <p>Serie animada que narra la vida de 3 amigos, en donde hay aventura, drama y comedia</p>
+                        <div class="botones">
+                            <button class="ver-btn">Ver</button>
+                            <button class="anadir-btn">Agregar a Favoritos</button>
+                        </div>
+                        <div class="estrellas" data-rating="4.5"></div>
                     </div>
                 </div>
             </div>
@@ -279,5 +459,32 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".estrellas").forEach(div =>{
+                const rating = parseFloat(div.getAttribute("data-rating")) || 0;
+                for(let i = 1; i <= 5; i++){
+                    const star = document.createElement("div");
+                    star.classList.add("estrella");
+
+                    const fill = document.createElement("div");
+                    fill.classList.add("estrella-fill");
+                    star.appendChild(fill);
+                    div.appendChild(star);
+
+                    const fillPercent = Math.max(0, Math.min(1, rating - (i - 1))); 
+
+                    fill.style.transform = `scaleX(${fillPercent})`;
+                    fill.style.background = 'gold';
+                    fill.style.position = 'absolute';
+                    fill.style.width = '100%';
+                    fill.style.height = '100%';
+                    fill.style.clipPath = star.style.clipPath;
+                    fill.style.transformOrigin = 'left';
+                }
+            })
+        })
+    </script>
 </body>
 </html>
